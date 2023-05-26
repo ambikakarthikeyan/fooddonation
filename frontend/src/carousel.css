@@ -1,0 +1,133 @@
+/* Carousel.css */
+
+.Carousel {
+  text-align: center;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.scrollable-description {
+  max-height: calc(300vh - 200px); /* Adjust the value according to your needs */
+  overflow: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.scrollable-content {
+  /* Remove padding and background-color */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.responsive-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: rgba(183, 174, 174, 0.7);
+  /* Insert additional styles for arrow icons */
+}
+
+.arrow-left {
+  left: 10px;
+  /* Insert left arrow icon styles */
+}
+
+.arrow-right {
+  right: 10px;
+  /* Insert right arrow icon styles */
+}
+
+.about-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+  border: 1px solid #402828;
+  border-radius: 4px;
+  background-color: #a3a7a7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.volunteer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.volunteer-card {
+  width: 200px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.volunteer-photo-small {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.volunteer-details h3 {
+  margin: 0;
+}
+
+.volunteer-details p {
+  margin-bottom: 5px;
+}
+
+.allocate-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.volunteer-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}

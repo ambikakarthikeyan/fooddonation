@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 16px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 16px;
+  }
+  
+  .footer{
+    width: 100%; /* Adjust the width of each card */
+    padding: 16px;
+    border: 1px solid #402828;
+    border-radius: 4px;
+    background-color: #635b63;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
